@@ -8,9 +8,17 @@ html {
   font-size: 16px;
 }
 
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
 body {
+  font-size: 1rem;
   font-family: $font_main;
   color: $color_default-text;
+  line-height: 1.8rem;
 }
 
 a,
@@ -26,4 +34,13 @@ a:hover {
 //Hide Widget Area
 .widget-area {
   display: none;
+}
+
+//Page Titles
+.entry-title {
+  font-size: 1.8rem;
+  font-family: $font_accent;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }

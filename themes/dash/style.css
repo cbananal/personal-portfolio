@@ -866,9 +866,16 @@ object {
 html {
   font-size: 16px; }
 
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px; }
+
 body {
+  font-size: 1rem;
   font-family: "Droid Serif", serif;
-  color: #58585a; }
+  color: #58585a;
+  line-height: 1.8rem; }
 
 a,
 a:visited {
@@ -880,6 +887,22 @@ a:hover {
 
 .widget-area {
   display: none; }
+
+.entry-title {
+  font-size: 1.8rem;
+  font-family: "Bariol Regular", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+/*----------------------------
+  Dash: Front Page
+-----------------------------*/
+.home .entry-title {
+  margin: 25px 0 0; }
+
+.home .entry-content {
+  text-align: center; }
 
 /*----------------------------
   Dash: Footer
