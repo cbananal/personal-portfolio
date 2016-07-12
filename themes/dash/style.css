@@ -878,6 +878,9 @@ a:visited {
 a:hover {
   color: #94c44d; }
 
+.widget-area {
+  display: none; }
+
 /*----------------------------
   Dash: Footer
 -----------------------------*/

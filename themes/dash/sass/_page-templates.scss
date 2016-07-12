@@ -22,3 +22,8 @@ a:visited, {
 a:hover {
   color: darken($color_links, 10%);
 }
+
+//Hide Widget Area
+.widget-area {
+  display: none;
+}
