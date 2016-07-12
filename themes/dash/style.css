@@ -735,6 +735,53 @@ object {
   display: block; }
 
 /*----------------------------
+  Dash: Fonts
+-----------------------------*/
+/*---------- Bariol ----------*/
+@font-face {
+  font-family: 'Bariol Regular';
+  src: url("../../assets/fonts/bariol_regular-webfont.eot");
+  src: url("../../assets/fonts/bariol_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/bariol_regular-webfont.woff2") format("woff2"), url("../../assets/fonts/bariol_regular-webfont.woff") format("woff"), url("../../assets/fonts/bariol_regular-webfont.ttf") format("truetype"), url("../../assets/fonts/bariol_regular-webfont.svg#bariol_regularregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Bariol Regular Italic';
+  src: url("../../assets/fonts/bariol_regular_italic-webfont.eot");
+  src: url("../../assets/fonts/bariol_regular_italic-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/bariol_regular_italic-webfont.woff2") format("woff2"), url("../../assets/fonts/bariol_regular_italic-webfont.woff") format("woff"), url("../../assets/fonts/bariol_regular_italic-webfont.ttf") format("truetype"), url("../../assets/fonts/bariol_regular_italic-webfont.svg#bariolregular_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*---------- Droid Serif ----------*/
+@font-face {
+  font-family: 'Droid Serif';
+  src: url("../../assets/fonts/droidserif-regular-webfont.eot");
+  src: url("../../assets/fonts/droidserif-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/droidserif-regular-webfont.woff2") format("woff2"), url("../../assets/fonts/droidserif-regular-webfont.woff") format("woff"), url("../../assets/fonts/droidserif-regular-webfont.ttf") format("truetype"), url("../../assets/fonts/droidserif-regular-webfont.svg#droid_serifregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Droid Serif Bold';
+  src: url("../../assets/fonts/droidserif-bold-webfont.eot");
+  src: url("../../assets/fonts/droidserif-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/droidserif-bold-webfont.woff2") format("woff2"), url("../../assets/fonts/droidserif-bold-webfont.woff") format("woff"), url("../../assets/fonts/droidserif-bold-webfont.ttf") format("truetype"), url("../../assets/fonts/droidserif-bold-webfont.svg#droid_serifbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Droid Serif Italic';
+  src: url("../../assets/fonts/droidserif-italic-webfont.eot");
+  src: url("../../assets/fonts/droidserif-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/droidserif-italic-webfont.woff2") format("woff2"), url("../../assets/fonts/droidserif-italic-webfont.woff") format("woff"), url("../../assets/fonts/droidserif-italic-webfont.ttf") format("truetype"), url("../../assets/fonts/droidserif-italic-webfont.svg#droid_serifitalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Droid Serif Bold Italic';
+  src: url("../../assets/fonts/droidserif-bolditalic-webfont.eot");
+  src: url("../../assets/fonts/droidserif-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/droidserif-bolditalic-webfont.woff2") format("woff2"), url("../../assets/fonts/droidserif-bolditalic-webfont.woff") format("woff"), url("../../assets/fonts/droidserif-bolditalic-webfont.ttf") format("truetype"), url("../../assets/fonts/droidserif-bolditalic-webfont.svg#droid_serifbold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/*----------------------------
   Dash: Header
 -----------------------------*/
 /*----------------------------
