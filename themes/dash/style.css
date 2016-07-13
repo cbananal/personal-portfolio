@@ -890,6 +890,9 @@ a:hover {
 i {
   transition: color 1s; }
 
+.slash-style {
+  color: #bab9b9; }
+
 .widget-area {
   display: none; }
 

@@ -36,6 +36,11 @@ i {
   transition: color 1s;
 }
 
+
+//Slash Dividers
+.slash-style {
+  color: $color_slash;
+}
 //Hide Widget Area
 .widget-area {
   display: none;
