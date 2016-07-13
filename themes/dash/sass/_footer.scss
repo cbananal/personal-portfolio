@@ -14,7 +14,7 @@
     margin: 0 2px;
     color: $color_icons;
     &:hover {
-      color: lighten($color_icons, 10%);
+      color: $color_links-hover;
     }
   }
   p {

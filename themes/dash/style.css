@@ -881,10 +881,14 @@ body {
 a,
 a:visited {
   color: #abd173;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: color 1s; }
 
 a:hover {
-  color: #94c44d; }
+  color: #58585a; }
+
+i {
+  transition: color 1s; }
 
 .widget-area {
   display: none; }
@@ -955,7 +959,7 @@ a:hover {
     margin: 0 2px;
     color: #a29f9f; }
     .site-footer i:hover {
-      color: #bbb9b9; }
+      color: #58585a; }
   .site-footer p {
     font-size: 0.7rem;
     line-height: normal; }
