@@ -959,6 +959,7 @@ i {
   margin-top: 30px;
   text-align: center; }
   .site-footer i {
+    font-size: 1.2rem;
     margin: 0 2px;
     color: #a29f9f; }
     .site-footer i:hover {
