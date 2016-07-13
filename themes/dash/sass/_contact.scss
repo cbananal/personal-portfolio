@@ -1,0 +1,58 @@
+/*----------------------------
+  Dash: Contact Page
+-----------------------------*/
+
+.page-template-contact {
+
+  .entry-content {
+    text-align: center;
+  }
+
+}
+
+
+/*---------- Contact Form ----------*/
+
+.contact-container {
+  img {
+    display: none;
+  }
+  .wpcf7-form input,
+  .wpcf7-form textarea {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 15px;
+    color: $dark-gray;
+    font-family: $font_accent;
+    letter-spacing: 1px;
+    border: $border_default;
+    border-radius: 0;
+    outline-color: $color_form-outline;
+  }
+  .wpcf7-submit {
+    height: 50px;
+    padding: 5px;
+    font-size: 1rem;
+    color: $green;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .wpcf7-not-valid-tip {
+    font-style: italic;
+  }
+  .wpcf7-validation-errors {
+    color: red;
+    font-style: italic;
+    border: 1px dashed red;
+  }
+  .wpcf7-mail-sent-ok {
+    border: 1px dashed $color_form-sent-ok;
+  }
+}
+
+
+/*---------- Connect with Me Section ----------*/
+
+.connect-container {
+  display: none;
+}

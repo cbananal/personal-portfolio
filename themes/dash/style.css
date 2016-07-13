@@ -950,6 +950,51 @@ i {
         align-self: center; }
 
 /*----------------------------
+  Dash: Contact Page
+-----------------------------*/
+.page-template-contact .entry-content {
+  text-align: center; }
+
+/*---------- Contact Form ----------*/
+.contact-container img {
+  display: none; }
+
+.contact-container .wpcf7-form input,
+.contact-container .wpcf7-form textarea {
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px 15px;
+  color: #58585a;
+  font-family: "Bariol Regular", sans-serif;
+  letter-spacing: 1px;
+  border: 1px dashed #bab9b9;
+  border-radius: 0;
+  outline-color: #58585a; }
+
+.contact-container .wpcf7-submit {
+  height: 50px;
+  padding: 5px;
+  font-size: 1rem;
+  color: #abd173;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+.contact-container .wpcf7-not-valid-tip {
+  font-style: italic; }
+
+.contact-container .wpcf7-validation-errors {
+  color: red;
+  font-style: italic;
+  border: 1px dashed red; }
+
+.contact-container .wpcf7-mail-sent-ok {
+  border: 1px dashed #abd173; }
+
+/*---------- Connect with Me Section ----------*/
+.connect-container {
+  display: none; }
+
+/*----------------------------
   Dash: Footer
 -----------------------------*/
 .site-info {

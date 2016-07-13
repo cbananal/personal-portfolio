@@ -19,13 +19,16 @@ $dark-gray: #58585a;
 
 //Plain Text
 $color_default-text: $dark-gray;
+$color_form-input: $dark-gray;
 
 //Links
 $color_links: $green;
 $color_links-hover: $dark-gray;
 
-//Border
+//Borders and Outlines
 $color_border: $light-gray;
+$color_form-outline: $dark-gray;
+$color_form-sent-ok: $green;
 
 //Icons & Other Design Styles
 $color_icons: $medium-gray;
