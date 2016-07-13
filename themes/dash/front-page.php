@@ -68,6 +68,31 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
 		<?php endif; ?>
+		<!-- end loop -->
+
+		<div class="passion-grid">
+			<div>
+				<i class="fa fa-paint-brush"></i>
+				<h2>Print / UI Design</h2>
+			</div>
+			<div>
+				<h2>Front-End Web Development</h2>
+				<i class="fa fa-code"></i>
+			</div>
+			<div>
+				<i class="fa fa-camera-retro"></i>
+				<h2>Photography</h2>
+			</div>
+			<div>
+				<h2>Creative Writing</h2>
+				<i class="fa fa-pencil"></i>
+			</div>
+			<div>
+				<i class="fa fa-scissors"></i>
+				<h2>Arts &amp; Crafts</h2>
+			</div>
+		</div>
+		<!--end passion-grid-->
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
