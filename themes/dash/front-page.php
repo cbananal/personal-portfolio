@@ -10,6 +10,7 @@
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package Dash
+ * Template Name: Front Page
  */
 
 get_header(); ?>
