@@ -945,3 +945,17 @@ a:hover {
 /*----------------------------
   Dash: Footer
 -----------------------------*/
+.site-info {
+  display: none; }
+
+.site-footer {
+  margin-top: 30px;
+  text-align: center; }
+  .site-footer i {
+    margin: 0 2px;
+    color: #a29f9f; }
+    .site-footer i:hover {
+      color: #bbb9b9; }
+  .site-footer p {
+    font-size: 0.7rem;
+    line-height: normal; }
