@@ -70,26 +70,26 @@ get_header(); ?>
 		<?php endif; ?>
 		<!-- end loop -->
 
-		<div class="passion-grid">
+		<div class="passion-grid container">
 			<div>
-				<i class="fa fa-paint-brush"></i>
-				<h2>Print / UI Design</h2>
+				<i class="fa fa-paint-brush fa-2x"></i>
+				<a href="#"><h2>Print / User<br> Inteeface Design</h2></a>
 			</div>
 			<div>
-				<h2>Front-End Web Development</h2>
-				<i class="fa fa-code"></i>
+				<a href="#"><h2>Front-End Web<br> Development</h2></a>
+				<i class="fa fa-code fa-2x"></i>
 			</div>
 			<div>
-				<i class="fa fa-camera-retro"></i>
-				<h2>Photography</h2>
+				<i class="fa fa-camera-retro fa-2x"></i>
+				<a href="#"><h2>Photography</h2></a>
 			</div>
 			<div>
-				<h2>Creative Writing</h2>
-				<i class="fa fa-pencil"></i>
+				<a href="#"><h2>Creative Writing</h2></a>
+				<i class="fa fa-pencil fa-2x"></i>
 			</div>
 			<div>
-				<i class="fa fa-scissors"></i>
-				<h2>Arts &amp; Crafts</h2>
+				<i class="fa fa-scissors fa-2x"></i>
+				<a href="#"><h2>Arts &amp; Crafts</h2></a>
 			</div>
 		</div>
 		<!--end passion-grid-->

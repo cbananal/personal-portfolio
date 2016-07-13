@@ -12,3 +12,42 @@
   }
 
 }
+
+
+/*---------- Passion Grid ----------*/
+
+.passion-grid {
+  width: 100%;
+  margin: 20px 0;
+  font-family: $font_accent;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-width: 1px 0;
+  border-style: dashed;
+  border-color: $color_border;
+  div {
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: $border_default;
+    &:nth-child(3),
+    &:nth-child(4) {
+      padding: 20px 0;
+    }
+    &:last-child {
+      padding: 20px 0;
+      border-bottom: 0;
+    }
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+}
+
+i {
+  margin: 0 10px;
+  color: $color_icons;
+  align-self: center;
+}
