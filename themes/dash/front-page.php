@@ -73,7 +73,7 @@ get_header(); ?>
 		<div class="passion-grid container">
 			<div>
 				<i class="fa fa-paint-brush fa-2x"></i>
-				<a href="#"><h2>Print / User<br> Inteeface Design</h2></a>
+				<a href="#"><h2>Print / User<br> Interface Design</h2></a>
 			</div>
 			<div>
 				<a href="#"><h2>Front-End Web<br> Development</h2></a>

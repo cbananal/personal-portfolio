@@ -932,12 +932,11 @@ a:hover {
       border-bottom: 0; }
   .passion-grid h2 {
     font-size: 1.3rem; }
-
-i {
-  margin: 0 10px;
-  color: #a29f9f;
-  -ms-flex-item-align: center;
-      align-self: center; }
+  .passion-grid i {
+    margin: 0 10px;
+    color: #a29f9f;
+    -ms-flex-item-align: center;
+        align-self: center; }
 
 /*----------------------------
   Dash: Footer
