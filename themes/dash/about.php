@@ -29,7 +29,7 @@ get_header(); ?>
 						</div>
 						<!--end skill-set-->
 						<div class="tools-languages">
-							<h3>Tools/Languages</h3>
+							<h3>Tools &#47; Languages</h3>
 							<?php echo CFS()->get ('development_tools'); ?>
 							<?php echo CFS()->get ('design_tools'); ?>
 						</div>
