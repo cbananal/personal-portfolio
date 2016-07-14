@@ -18,30 +18,18 @@
   text-align: center;
   border: $border-default;
   position: relative;
-  h3 {
-    height: 30px;
-    margin: 0 auto;
-    padding: 0 10px;
-    font-family: $font_accent;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    background: #fff;
-    position: absolute;
-    top: -15px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
 }
 
 .skill-set h3 {
   width: 140px;
+  @include about-heading;
 }
 
 .tools-languages {
   margin-bottom: 5px;
   h3 {
     width: 250px;
+    @include about-heading;
   }
 }
 
@@ -61,19 +49,7 @@
 
 .her-story {
   width: 160px;
-  height: 30px;
-  margin: 0 auto;
-  padding: 0 10px;
-  text-align: center;
-  font-family: $font_accent;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  background: #fff;
-  position: absolute;
-  top: -15px;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  @include about-heading;
 }
 
 .word-play {

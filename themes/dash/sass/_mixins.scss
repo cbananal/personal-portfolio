@@ -1,3 +1,20 @@
 /*----------------------------
   Dash: Mixins
 -----------------------------*/
+
+//Absolute-Positioned Headings of Sections on About Page
+@mixin about-heading {
+  height: 30px;
+  margin: 0 auto;
+  padding: 0 10px;
+  font-family: $font_accent;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: #fff;
+  position: absolute;
+  top: -15px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}

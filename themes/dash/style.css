@@ -969,12 +969,32 @@ i {
   text-align: center;
   border: 1px dashed #bab9b9;
   position: relative; }
-  .skill-set h3,
+
+.skill-set h3 {
+  width: 140px;
+  height: 30px;
+  margin: 0 auto;
+  padding: 0 10px;
+  font-family: "Bariol Regular", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: #fff;
+  position: absolute;
+  top: -15px;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+.tools-languages {
+  margin-bottom: 5px; }
   .tools-languages h3 {
+    width: 250px;
     height: 30px;
     margin: 0 auto;
     padding: 0 10px;
     font-family: "Bariol Regular", sans-serif;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
     background: #fff;
@@ -983,14 +1003,6 @@ i {
     right: 0;
     bottom: 0;
     left: 0; }
-
-.skill-set h3 {
-  width: 140px; }
-
-.tools-languages {
-  margin-bottom: 5px; }
-  .tools-languages h3 {
-    width: 250px; }
 
 /*---------- About Write-Up ----------*/
 .page-template-about .entry-content {
@@ -1004,8 +1016,8 @@ i {
   height: 30px;
   margin: 0 auto;
   padding: 0 10px;
-  text-align: center;
   font-family: "Bariol Regular", sans-serif;
+  text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
   background: #fff;
