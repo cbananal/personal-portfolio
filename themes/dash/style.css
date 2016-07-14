@@ -973,6 +973,7 @@ i {
   .tools-languages h3 {
     height: 30px;
     margin: 0 auto;
+    padding: 0 10px;
     font-family: "Bariol Regular", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -984,12 +985,38 @@ i {
     left: 0; }
 
 .skill-set h3 {
-  width: 150px; }
+  width: 140px; }
 
 .tools-languages {
   margin-bottom: 5px; }
   .tools-languages h3 {
-    width: 235px; }
+    width: 250px; }
+
+/*---------- About Write-Up ----------*/
+.page-template-about .entry-content {
+  margin-top: 50px;
+  padding: 20px 20px 0;
+  border-top: 1px dashed #bab9b9;
+  position: relative; }
+
+.her-story {
+  width: 160px;
+  height: 30px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+  font-family: "Bariol Regular", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: #fff;
+  position: absolute;
+  top: -15px;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+.word-play {
+  font-family: "Bariol Regular Italic", sans-serif; }
 
 /*----------------------------
   Dash: Contact Page

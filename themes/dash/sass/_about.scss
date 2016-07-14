@@ -21,6 +21,7 @@
   h3 {
     height: 30px;
     margin: 0 auto;
+    padding: 0 10px;
     font-family: $font_accent;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -34,12 +35,47 @@
 }
 
 .skill-set h3 {
-  width: 150px;
+  width: 140px;
 }
 
 .tools-languages {
   margin-bottom: 5px;
   h3 {
-    width: 235px;
+    width: 250px;
   }
+}
+
+
+/*---------- About Write-Up ----------*/
+
+.page-template-about {
+
+  .entry-content {
+    margin-top: 50px;
+    padding: 20px 20px 0;
+    border-top: $border-default;
+    position: relative;
+  }
+
+}
+
+.her-story {
+  width: 160px;
+  height: 30px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+  font-family: $font_accent;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: #fff;
+  position: absolute;
+  top: -15px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.word-play {
+  font-family: $font_accent-emphasize;
 }

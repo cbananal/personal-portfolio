@@ -38,7 +38,7 @@ get_header(); ?>
 					<!--end skill-set-->
 
 					<div class="entry-content">
-						<h3>HerStory</h3>
+						<h3 class="her-story"><span class="word-play">Her</span>Story</h3>
 						<?php
 							the_content();
 
