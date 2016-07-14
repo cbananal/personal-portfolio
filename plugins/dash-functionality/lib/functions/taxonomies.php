@@ -39,7 +39,7 @@
  		'show_in_nav_menus'          => true,
  		'show_tagcloud'              => false,
  	);
- 	register_taxonomy( 'work', array( 'portfolio' ), $args );
+ 	register_taxonomy( 'work-type', array( 'portfolio' ), $args );
 
  }
  add_action( 'init', 'dash_register_portfolio_tax', 0 );
