@@ -950,6 +950,44 @@ i {
         align-self: center; }
 
 /*----------------------------
+  Dash: About Page
+-----------------------------*/
+/*---------- Skills Section ----------*/
+.skills-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.skill-set,
+.tools-languages {
+  width: 80%;
+  margin: 20px auto 35px;
+  padding: 15px 30px;
+  text-align: center;
+  border: 1px dashed #bab9b9;
+  position: relative; }
+  .skill-set h3,
+  .tools-languages h3 {
+    width: 250px;
+    height: 30px;
+    margin: 0 auto;
+    font-family: "Bariol Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: #fff;
+    position: absolute;
+    top: -15px;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+
+.tools-languages {
+  margin-bottom: 5px; }
+
+/*----------------------------
   Dash: Contact Page
 -----------------------------*/
 .page-template-contact .entry-content {
