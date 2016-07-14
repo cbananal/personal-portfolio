@@ -1,6 +1,6 @@
 /*----------------------------
   Dashed: Page Templates
-  These are shared styles across pages of the site.
+  These are shared default styles across pages of the site.
   For page-exclusive styles, refer to their respective stylesheets.
 -----------------------------*/
 
@@ -41,6 +41,7 @@ i {
 .slash-style {
   color: $color_slash;
 }
+
 //Hide Widget Area
 .widget-area {
   display: none;
@@ -52,5 +53,5 @@ i {
   font-family: $font_accent;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 2.5px;
+  letter-spacing: 3px;
 }

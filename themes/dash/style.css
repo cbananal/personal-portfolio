@@ -861,7 +861,7 @@ object {
 
 /*----------------------------
   Dashed: Page Templates
-  These are shared styles across pages of the site.
+  These are shared default styles across pages of the site.
   For page-exclusive styles, refer to their respective stylesheets.
 -----------------------------*/
 html {
@@ -901,7 +901,7 @@ i {
   font-family: "Bariol Regular", sans-serif;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 2.5px; }
+  letter-spacing: 3px; }
 
 /*----------------------------
   Dash: Front Page
@@ -952,6 +952,9 @@ i {
 /*----------------------------
   Dash: About Page
 -----------------------------*/
+.page-template-about .entry-title {
+  margin: 40px auto 45px; }
+
 /*---------- Skills Section ----------*/
 .skills-container {
   display: -ms-flexbox;
@@ -1033,6 +1036,9 @@ i {
 /*----------------------------
   Dash: Contact Page
 -----------------------------*/
+.page-template-contact .entry-title {
+  margin: 40px auto 0; }
+
 .page-template-contact .entry-content {
   text-align: center; }
 
