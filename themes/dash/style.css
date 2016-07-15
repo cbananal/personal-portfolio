@@ -890,18 +890,21 @@ a:hover {
 i {
   transition: color 1s; }
 
-.slash-style {
-  color: #bab9b9; }
-
-.widget-area {
-  display: none; }
-
 .entry-title {
   font-size: 1.5rem;
   font-family: "Bariol Regular", sans-serif;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px; }
+
+.archive .entry-title {
+  margin: 40px auto 45px; }
+
+.slash-style {
+  color: #bab9b9; }
+
+.widget-area {
+  display: none; }
 
 /*----------------------------
   Dash: Front Page

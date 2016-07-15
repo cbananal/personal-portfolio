@@ -36,6 +36,21 @@ i {
   transition: color 1s;
 }
 
+//Page Titles
+.entry-title {
+  font-size: 1.5rem;
+  font-family: $font_accent;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+//Titles for Archive Pages
+.archive {
+  .entry-title {
+    margin: 40px auto 45px;
+  }
+}
 
 //Slash Dividers
 .slash-style {
@@ -45,13 +60,4 @@ i {
 //Hide Widget Area
 .widget-area {
   display: none;
-}
-
-//Page Titles
-.entry-title {
-  font-size: 1.5rem;
-  font-family: $font_accent;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 3px;
 }
