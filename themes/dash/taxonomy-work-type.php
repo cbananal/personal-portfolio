@@ -19,7 +19,7 @@ get_header(); ?>
 
 			<header class="entry-header">
 				<!-- Shows taxonomy name as page title -->
-				<h1 class="entry-title"><?php $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) ); echo $term->name; ?></h1>
+				<h1 class="entry-title"><?php $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) ); echo $term->name; ?></h1></a>
 			</header><!-- .entry-header -->
 
 			<?php
@@ -31,14 +31,7 @@ get_header(); ?>
 					<div class="projects-container">
 						<div class="project-box">
 							<div class="project-image">
-							<?php
-								the_post_thumbnail();
-
-								wp_link_pages( array(
-									'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'dash' ),
-									'after'  => '</div>',
-								) );
-							?>
+								<a href="<?php echo get_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
 							</div>
 							<div class="project-info">
 								<?php the_title( '<h4>', '</h4>' ); ?>
@@ -51,6 +44,11 @@ get_header(); ?>
 					</div>
 					<!--end works-container-->
 				</div><!-- .entry-content -->
+
+				<!-- <?php wp_link_pages( array(
+						'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'dash' ),
+						'after'  => '</div>',
+					) ); ?> -->
 
 				<?php if ( get_edit_post_link() ) : ?>
 					<footer class="entry-footer">

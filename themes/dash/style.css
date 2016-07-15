@@ -1072,7 +1072,8 @@ i {
   border-width: 0 1px 1px 1px;
   border-style: dashed;
   border-color: #bab9b9;
-  line-height: 1.6; }
+  line-height: 1.6;
+  cursor: default; }
   .project-info h4 {
     margin: 0; }
   .project-info div {

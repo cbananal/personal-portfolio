@@ -30,6 +30,7 @@
     position: absolute;
     left: 50%;
   }
+
 }
 
 .project-info {
@@ -40,11 +41,13 @@
   border-style: dashed;
   border-color: $color_border;
   line-height: 1.6;
+  cursor: default;
   h4 {
     margin: 0;
     // line-height: 1.5;
   }
   div {
     font-size: 0.8rem;
+
   }
 }
