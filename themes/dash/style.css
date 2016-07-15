@@ -1067,7 +1067,7 @@ i {
     transform: translate(-50%, 0);
     position: absolute;
     left: 50%; }
-  .project-image:hover .call-to-action {
+  .project-image:hover .project-hovered {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
@@ -1075,14 +1075,17 @@ i {
     -ms-flex-align: center;
         align-items: center; }
 
-.call-to-action {
+.project-hovered {
   width: 100%;
   height: 300px;
   background: linear-gradient(rgba(88, 88, 90, 0.9), rgba(88, 88, 90, 0.9));
   position: absolute;
-  top: 200;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   display: none; }
-  .call-to-action p {
+  .project-hovered p {
     color: #fff;
     text-align: center;
     font-size: 6rem; }

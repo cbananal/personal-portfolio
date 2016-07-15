@@ -30,19 +30,22 @@
     position: absolute;
     left: 50%;
   }
-  &:hover .call-to-action {
+  &:hover .project-hovered {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 }
 
-.call-to-action {
+.project-hovered {
   width: 100%;
   height: 300px;
   background: linear-gradient(rgba(88,88,90,0.9), rgba(88,88,90,0.9));
   position: absolute;
-  top: 200;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   display: none;
   p {
     color: #fff;

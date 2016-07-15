@@ -33,7 +33,7 @@ get_header(); ?>
 							<div class="project-image">
 								<?php the_post_thumbnail(); ?>
 								<a href="<?php echo get_permalink(); ?>">
-									<div class="call-to-action">
+									<div class="project-hovered">
 										<p>&#10511;</p>
 									</div>
 								</a>
