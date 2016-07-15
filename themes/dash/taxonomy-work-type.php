@@ -34,7 +34,7 @@ get_header(); ?>
 								<?php the_post_thumbnail(); ?>
 								<a href="<?php echo get_permalink(); ?>">
 									<div class="project-hovered">
-										<p>&#10511;</p>
+										<p class="animated flipInY">&#10511;</p>
 									</div>
 								</a>
 							</div>

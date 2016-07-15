@@ -34,13 +34,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: appear 2s;
   }
 }
 
 .project-hovered {
   width: 100%;
   height: 300px;
-  background: linear-gradient(rgba(88,88,90,0.9), rgba(88,88,90,0.9));
+  background: linear-gradient(rgba(88,88,90,0.8), rgba(88,88,90,0.8));
   position: absolute;
   top: 0;
   right: 0;
