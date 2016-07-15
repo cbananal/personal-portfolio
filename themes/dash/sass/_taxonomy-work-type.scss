@@ -30,7 +30,25 @@
     position: absolute;
     left: 50%;
   }
+  &:hover .call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
+.call-to-action {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(rgba(88,88,90,0.9), rgba(88,88,90,0.9));
+  position: absolute;
+  top: 200;
+  display: none;
+  p {
+    color: #fff;
+    text-align: center;
+    font-size: 6rem;
+  }
 }
 
 .project-info {

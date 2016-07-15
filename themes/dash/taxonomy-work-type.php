@@ -31,7 +31,12 @@ get_header(); ?>
 					<div class="projects-container">
 						<div class="project-box">
 							<div class="project-image">
-								<a href="<?php echo get_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
+								<?php the_post_thumbnail(); ?>
+								<a href="<?php echo get_permalink(); ?>">
+									<div class="call-to-action">
+										<p>&#10511;</p>
+									</div>
+								</a>
 							</div>
 							<div class="project-info">
 								<?php the_title( '<h4>', '</h4>' ); ?>
