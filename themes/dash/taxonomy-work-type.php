@@ -30,6 +30,7 @@ get_header(); ?>
 				<div class="entry-content">
 					<div class="projects-container">
 						<div class="project-box">
+							<div class="project-image">
 							<?php
 								the_post_thumbnail();
 
@@ -38,11 +39,10 @@ get_header(); ?>
 									'after'  => '</div>',
 								) );
 							?>
+							</div>
 							<div class="project-info">
-								<?php
-									the_title( '<h4>', '</h4>' );
-									echo CFS()-> get( 'work_description' );
-								?>
+								<?php the_title( '<h4>', '</h4>' ); ?>
+								<div><?php echo CFS()-> get( 'work_description' ); ?></div>
 							</div>
 							<!--end project-info-->
 						</div>

@@ -1034,6 +1034,51 @@ i {
   font-family: "Bariol Regular Italic", sans-serif; }
 
 /*----------------------------
+  Dash: Work-Type Taxonomy
+-----------------------------*/
+.projects-container {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.project-box {
+  margin: 5px 0; }
+
+.project-image {
+  width: 100%;
+  height: 300px;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: #bab9b9;
+  overflow: hidden;
+  position: relative; }
+  .project-image img {
+    width: auto;
+    max-width: none;
+    height: 300px;
+    margin-bottom: 0;
+    transform: translate(-50%, 0);
+    position: absolute;
+    left: 50%; }
+
+.project-info {
+  font-size: 0.9rem;
+  margin-top: -10px;
+  padding: 18px 8px 8px;
+  border-width: 0 1px 1px 1px;
+  border-style: dashed;
+  border-color: #bab9b9;
+  line-height: 1.6; }
+  .project-info h4 {
+    margin: 0; }
+  .project-info div {
+    font-size: 0.8rem; }
+
+/*----------------------------
   Dash: Contact Page
 -----------------------------*/
 .page-template-contact .entry-title {
