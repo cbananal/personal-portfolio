@@ -76,3 +76,18 @@
     text-align: center;
   }
 }
+
+.main-navigation .sub-menu {
+  margin: 10px auto;
+  font-size: 0.8rem;
+  font-family: lora;
+  position: relative; //Shows sub-menu
+  top: 0;
+  left: 0;
+  background-color: aliceblue;
+  a {
+    color: gray;
+    display: none;
+
+  }
+}

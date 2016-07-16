@@ -859,6 +859,18 @@ object {
     width: 100%;
     text-align: center; }
 
+.main-navigation .sub-menu {
+  margin: 10px auto;
+  font-size: 0.8rem;
+  font-family: lora;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: aliceblue; }
+  .main-navigation .sub-menu a {
+    color: gray;
+    display: none; }
+
 /*----------------------------
   Dashed: Page Templates
   These are shared default styles across pages of the site.
