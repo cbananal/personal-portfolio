@@ -11,9 +11,27 @@ jQuery(document).ready(function() {
   });
 
   //Toggle Sub-Menus
+  // jQuery('.main-navigation .menu-item-has-children').on('click', function() {
+  //   console.log('hi');
+  //   jQuery('.main-navigation .sub-menu a').css("display", "inline-block");
+  // })
+
+  // jQuery('.main-navigation .menu-item-has-children').on('click', function() {
+  //
+  //   console.log('hi');
+  //   jQuery(this).children('.sub-menu').toggle(function() {
+  //     jQuery('.main-navigation .sub-menu a').css("display", "inline-block");
+  //   });
+  //
+  // });
+
   jQuery('.main-navigation .menu-item-has-children').on('click', function() {
-    console.log('hi');
-    jQuery('.main-navigation .sub-menu a').css("display", "inline-block");
-  })
+
+    jQuery(this).children('.sub-menu').toggle(function() {
+      jQuery('.main-navigation .sub-menu').css({position:"relative", top:"0", left:"0"});
+    });
+
+  });
+
 
 }); //end document ready

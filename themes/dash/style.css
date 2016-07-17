@@ -469,20 +469,9 @@ a:active {
   display: block;
   text-decoration: none; }
 
-.main-navigation ul ul {
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-  float: left;
-  position: absolute;
-  top: 1.5em;
-  left: -999em;
-  z-index: 99999; }
-
 .main-navigation ul ul ul {
   left: -999em;
   top: 0; }
-
-.main-navigation ul ul a {
-  width: 200px; }
 
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
@@ -830,7 +819,9 @@ object {
       align-items: center; }
 
 .menu-toggle {
-  margin: 30px 0 20px;
+  width: 100%;
+  height: auto;
+  margin: 30px auto 20px;
   padding: 0;
   font-size: 1.2rem;
   color: #abd173;
@@ -847,29 +838,41 @@ object {
     border-color: transparent;
     box-shadow: none; }
 
-.nav-menu {
-  padding-bottom: 110px;
+.menu-main-navigation-container {
+  width: 100%;
+  height: auto;
   font-size: 1.2rem;
   font-family: "Bariol Regular", sans-serif;
-  text-align: center;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  display: block; }
-  .nav-menu li {
+  letter-spacing: 1px; }
+  .menu-main-navigation-container li {
     width: 100%;
+    height: auto;
     text-align: center; }
 
-.main-navigation .sub-menu {
-  margin: 10px auto;
+.menu > li {
+  margin: 3px 0; }
+  .menu > li:last-child {
+    margin-bottom: 18px; }
+
+.menu-item-has-children {
+  cursor: pointer; }
+
+.main-navigation.toggled .sub-menu {
+  width: 200px;
+  min-height: 140px;
+  height: auto;
+  margin: 5px auto;
   font-size: 0.8rem;
-  font-family: lora;
-  position: relative;
-  top: 0;
-  left: 0;
-  background-color: aliceblue; }
-  .main-navigation .sub-menu a {
-    color: gray;
-    display: none; }
+  border-width: 0 1px;
+  border-color: #abd173;
+  border-style: dashed;
+  display: none; }
+  .main-navigation.toggled .sub-menu a {
+    text-align: center;
+    color: #58585a; }
+    .main-navigation.toggled .sub-menu a:hover {
+      color: #abd173; }
 
 /*----------------------------
   Dashed: Page Templates
