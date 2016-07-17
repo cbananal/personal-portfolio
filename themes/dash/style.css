@@ -797,6 +797,11 @@ object {
   -ms-flex-align: center;
       align-items: center;
   position: relative; }
+  @media (min-width: 1000px) {
+    .site-header {
+      width: 90%;
+      height: 50px;
+      margin: 55px auto; } }
 
 .logo {
   width: 78px;
@@ -807,6 +812,12 @@ object {
   right: 0;
   bottom: 0;
   left: 0; }
+  @media (min-width: 1000px) {
+    .logo {
+      top: -20px;
+      right: 80%;
+      bottom: 0;
+      left: 0; } }
 
 /*---------- Navigation ----------*/
 .main-navigation {
