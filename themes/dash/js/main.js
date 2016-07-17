@@ -10,21 +10,7 @@ jQuery(document).ready(function() {
     jQuery('.main-navigation').toggleClass('toggled');
   });
 
-  //Toggle Sub-Menus
-  // jQuery('.main-navigation .menu-item-has-children').on('click', function() {
-  //   console.log('hi');
-  //   jQuery('.main-navigation .sub-menu a').css("display", "inline-block");
-  // })
-
-  // jQuery('.main-navigation .menu-item-has-children').on('click', function() {
-  //
-  //   console.log('hi');
-  //   jQuery(this).children('.sub-menu').toggle(function() {
-  //     jQuery('.main-navigation .sub-menu a').css("display", "inline-block");
-  //   });
-  //
-  // });
-
+  //Toggle sub-menu and space it properly under its parent
   jQuery('.main-navigation .menu-item-has-children').on('click', function() {
 
     jQuery(this).children('.sub-menu').toggle(function() {
