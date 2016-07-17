@@ -2,6 +2,12 @@
   Dash: Variables
 -----------------------------*/
 
+/*---------- Media Queries ----------*/
+
+$breakpoint_tablet: 600px;
+$breakpoint_desktop: 1000px;
+
+
 /*---------- Fonts ----------*/
 
 $font_main: 'Droid Serif', serif;
@@ -38,4 +44,5 @@ $color_slash: $light-gray;
 
 
 /*---------- Border ----------*/
+
 $border_default: 1px dashed $color_border;
