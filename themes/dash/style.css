@@ -870,6 +870,7 @@ object {
 .menu-item-has-children {
   cursor: pointer; }
 
+.main-navigation .sub-menu,
 .main-navigation.toggled .sub-menu {
   width: 200px;
   min-height: 140px;
@@ -880,9 +881,11 @@ object {
   border-color: #abd173;
   border-style: dashed;
   display: none; }
+  .main-navigation .sub-menu a,
   .main-navigation.toggled .sub-menu a {
     text-align: center;
     color: #58585a; }
+    .main-navigation .sub-menu a:hover,
     .main-navigation.toggled .sub-menu a:hover {
       color: #abd173; }
 
