@@ -974,6 +974,9 @@ i {
 
 .home .entry-content {
   text-align: center; }
+  @media (min-width: 600px) {
+    .home .entry-content {
+      width: 50%; } }
 
 /*---------- Slider ----------*/
 #wpflickity-1 {

@@ -9,6 +9,9 @@
   }
   .entry-content {
     text-align: center;
+    @include tablet {
+      width: 50%;
+    }
   }
 
 }
