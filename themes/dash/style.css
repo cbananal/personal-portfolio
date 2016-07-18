@@ -1339,6 +1339,7 @@ i {
 
 @media (min-width: 1000px) {
   .contact-container {
+    width: 80%;
     margin: 0 auto 20px;
     display: -ms-flexbox;
     display: flex;
