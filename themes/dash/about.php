@@ -23,8 +23,8 @@ get_header(); ?>
 					<div class="skills-container">
 						<div class="skill-set">
 							<h3>Skill Set</h3>
-							<?php echo CFS()->get ('design_skills'); ?>
 							<?php echo CFS()->get ('development_skills'); ?>
+							<?php echo CFS()->get ('design_skills'); ?>
 							<?php echo CFS()->get ('other_skills'); ?>
 						</div>
 						<!--end skill-set-->
