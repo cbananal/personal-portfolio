@@ -1328,6 +1328,34 @@ i {
 .contact-container .wpcf7-mail-sent-ok {
   border: 1px dashed #abd173; }
 
+@media (min-width: 1000px) {
+  .contact-container {
+    width: 80%;
+    margin: 0 auto 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-align: start;
+        align-items: flex-start; }
+    .contact-container .contact-image {
+      width: 50%;
+      height: 515px;
+      overflow: hidden; }
+      .contact-container .contact-image img {
+        width: 100%;
+        max-width: none;
+        height: auto;
+        transform: translateY(-50px);
+        display: block; }
+    .contact-container .wpcf7 {
+      -ms-flex-preferred-size: 40%;
+          flex-basis: 40%;
+      -ms-flex-item-align: start;
+          align-self: flex-start; }
+      .contact-container .wpcf7 p {
+        margin-top: 0; } }
+
 /*---------- Connect with Me Section ----------*/
 .connect-container {
   display: none; }

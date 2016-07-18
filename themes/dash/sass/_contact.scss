@@ -5,7 +5,7 @@
 .page-template-contact {
 
   .entry-title {
-    margin: 40px auto 0; 
+    margin: 40px auto 0;
   }
 
   .entry-content {
@@ -19,7 +19,7 @@
 
 .contact-container {
   img {
-    display: none;
+    display: none; //Includes Ajax loader image
   }
   .wpcf7-form input,
   .wpcf7-form textarea {
@@ -51,6 +51,33 @@
   }
   .wpcf7-mail-sent-ok {
     border: 1px dashed $color_form-sent-ok;
+  }
+
+  @include desktop {
+    width: 80%;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    .contact-image {
+      width: 50%;
+      height: 515px;
+      overflow: hidden;
+      img {
+        width: 100%;
+        max-width: none;
+        height: auto;
+        transform: translateY(-50px);
+        display: block;
+      }
+    }
+    .wpcf7 {
+      flex-basis: 40%;
+      align-self: flex-start;
+      p {
+        margin-top: 0; //Vertically aligns the form with accompanying photo at flex-start
+      }
+    }
   }
 }
 

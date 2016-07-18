@@ -26,7 +26,7 @@ get_header(); ?>
 			?>
 
       <div class="contact-container">
-        <img src="<?php echo CFS()->get ( 'contact_image' ); ?>">
+        <div class="contact-image"><img src="<?php echo CFS()->get ( 'contact_image' ); ?>"></div>
         <?php echo CFS()->get ( 'contact_form' ); ?>
       </div>
 
