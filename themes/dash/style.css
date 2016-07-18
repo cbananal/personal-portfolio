@@ -1292,6 +1292,10 @@ i {
 
 .page-template-contact .entry-content {
   text-align: center; }
+  @media (min-width: 600px) {
+    .page-template-contact .entry-content {
+      width: 80%;
+      margin: 1.5em auto 0; } }
 
 /*---------- Contact Form ----------*/
 .contact-container img {
