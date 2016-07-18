@@ -1350,6 +1350,7 @@ i {
     .contact-container .contact-image {
       width: 50%;
       height: 515px;
+      border: 1px solid #bab9b9;
       overflow: hidden; }
       .contact-container .contact-image img {
         width: 100%;
