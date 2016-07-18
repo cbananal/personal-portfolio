@@ -857,10 +857,33 @@ object {
   font-family: "Bariol Regular", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px; }
+  @media (min-width: 600px) {
+    .menu-main-navigation-container {
+      margin-top: 20px; } }
+  @media (min-width: 1000px) {
+    .menu-main-navigation-container {
+      width: 80%;
+      height: 50px;
+      padding: 8px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center;
+      position: absolute;
+      top: -20px;
+      right: 15%;
+      left: 15%;
+      bottom: 0; } }
   .menu-main-navigation-container li {
     width: 100%;
     height: auto;
-    text-align: center; }
+    margin: 0 auto;
+    padding: 0 25px;
+    text-align: center;
+    top: 0; }
+    @media (min-width: 1000px) {
+      .menu-main-navigation-container li {
+        width: auto; } }
 
 .menu > li {
   margin: 3px 0; }
@@ -877,10 +900,17 @@ object {
   height: auto;
   margin: 5px auto;
   font-size: 0.8rem;
+  background-color: #fff;
   border-width: 0 1px;
   border-color: #abd173;
   border-style: dashed;
+  z-index: 9999;
   display: none; }
+  @media (min-width: 1000px) {
+    .main-navigation .sub-menu,
+    .main-navigation.toggled .sub-menu {
+      margin-top: 10px;
+      border-width: 0 1px 1px; } }
   .main-navigation .sub-menu a,
   .main-navigation.toggled .sub-menu a {
     text-align: center;

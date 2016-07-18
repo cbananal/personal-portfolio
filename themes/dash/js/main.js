@@ -17,6 +17,10 @@ jQuery(document).ready(function() {
       jQuery('.main-navigation .sub-menu').css({position:"relative", top:"0", left:"0"});
     });
 
+    // jQuery(this).children('.sub-menu').toggle(function() {
+    //   jQuery('.main-navigation .sub-menu').css("display", "inline-block");
+    // });
+
   });
 
 

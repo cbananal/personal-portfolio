@@ -76,6 +76,7 @@
   }
 }
 
+//Container of Parent Menu Items
 .menu-main-navigation-container {
   width: 100%;
   height: auto;
@@ -83,14 +84,36 @@
   font-family: $font_accent;
   text-transform: uppercase;
   letter-spacing: 1px;
+  @include tablet {
+    margin-top: 20px;
+  }
+  @include desktop {
+    width: 80%;
+    height: 50px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -20px;
+    right: 15%;
+    left: 15%;
+    bottom: 0;
+  }
   li {
     width: 100%;
     height: auto;
+    margin: 0 auto;
+    padding: 0 25px;
     text-align: center;
+    top: 0;
+    @include desktop {
+      width: auto;
+    }
   }
 }
 
-.menu > li { //Adjusts line height of parent menu items only
+//Adjusts line height of parent menu items only
+.menu > li {
   margin: 3px 0;
   &:last-child {
     margin-bottom: 18px;
@@ -108,10 +131,16 @@
   height: auto;
   margin: 5px auto;
   font-size: 0.8rem;
+  background-color: #fff;
   border-width: 0 1px;
   border-color: $color_links;
   border-style: dashed;
+  z-index: 9999;
   display: none; //Initial state of sub-menu until clicked
+  @include desktop {
+    margin-top: 10px;
+    border-width: 0 1px 1px;
+  }
   a {
     text-align: center;
     color: $color_default-text;
