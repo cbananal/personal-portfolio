@@ -1363,6 +1363,32 @@ i {
 /*---------- Connect with Me Section ----------*/
 .connect-container {
   display: none; }
+  @media (min-width: 1000px) {
+    .connect-container {
+      width: 80%;
+      min-height: 60px;
+      margin: 50px auto 60px;
+      padding: 20px;
+      text-align: center;
+      border: 1px dashed #bab9b9;
+      display: block;
+      position: relative; }
+      .connect-container h3 {
+        width: auto;
+        padding: 0 20px;
+        font-family: "Bariol Regular", sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        background-color: #fff;
+        position: absolute;
+        top: -34px;
+        left: 25px; }
+      .connect-container i {
+        margin: 0 10px;
+        font-size: 2rem;
+        color: #a29f9f; }
+        .connect-container i:hover {
+          color: #abd173; } }
 
 /*----------------------------
   Dash: Footer

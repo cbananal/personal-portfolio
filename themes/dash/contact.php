@@ -31,7 +31,7 @@ get_header(); ?>
       </div>
 
       <div class="connect-container">
-        <h4>Connect with Me</h4>
+        <h3>Connect with Me</h4>
         <div class="social">
     			<a href="http://www.linkedin.com/in/cbananal" target="_blank"><i class="fa fa-linkedin-square"></i></a>
     			<a href="http://www.github.com/cbananal" target="_blank"><i class="fa fa-github"></i></a>
