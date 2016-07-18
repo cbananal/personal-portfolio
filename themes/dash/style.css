@@ -1020,8 +1020,8 @@ i {
     .passion-grid {
       max-width: 750px; } }
 
-.main-passion div,
-.secondary-passion div {
+.main-passions div,
+.secondary-passions div {
   width: 100%;
   min-height: 120px;
   max-height: 120px;
@@ -1037,8 +1037,8 @@ i {
   border-bottom: 1px dashed #bab9b9; }
 
 @media (min-width: 600px) {
-  .main-passion,
-  .secondary-passion {
+  .main-passions,
+  .secondary-passions {
     width: 100%;
     padding: 8px 0;
     border-bottom: 1px dashed #bab9b9;
@@ -1046,33 +1046,33 @@ i {
     display: flex;
     -ms-flex-flow: row nowrap;
         flex-flow: row nowrap; }
-    .main-passion div,
-    .secondary-passion div {
+    .main-passions div,
+    .secondary-passions div {
       border-bottom: 0; } }
 
 @media (min-width: 600px) {
-  .main-passion div:first-child {
+  .main-passions div:first-child {
     border-right: 1px dashed #bab9b9; }
-    .main-passion div:first-child a {
+    .main-passions div:first-child a {
       -ms-flex-order: 2;
           order: 2; } }
 
-.secondary-passion div:last-child {
+.secondary-passions div:last-child {
   border-bottom: 0; }
 
 @media (min-width: 600px) {
-  .secondary-passion {
+  .secondary-passions {
     border-bottom: 0; }
-    .secondary-passion div {
+    .secondary-passions div {
       width: 33.3%;
       min-height: 20px; }
-    .secondary-passion h2 {
+    .secondary-passions h2 {
       font-size: 0.9rem; }
-    .secondary-passion i {
+    .secondary-passions i {
       font-size: 1.2rem; }
-    .secondary-passion div:first-child {
+    .secondary-passions div:first-child {
       border-right: 1px dashed #bab9b9; }
-    .secondary-passion div:nth-child(2) {
+    .secondary-passions div:nth-child(2) {
       padding-right: 10px;
       border-right: 1px dashed #bab9b9;
       display: -ms-flexbox;
@@ -1083,16 +1083,16 @@ i {
           flex-basis: 35%;
       -ms-flex-line-pack: start;
           align-content: flex-start; }
-      .secondary-passion div:nth-child(2) a {
+      .secondary-passions div:nth-child(2) a {
         -ms-flex-order: 2;
             order: 2; } }
 
 @media (min-width: 1000px) {
-  .secondary-passion h2 {
+  .secondary-passions h2 {
     font-size: 1rem; }
-  .secondary-passion i {
+  .secondary-passions i {
     font-size: 1.4rem; }
-  .secondary-passion div:nth-child(2) {
+  .secondary-passions div:nth-child(2) {
     padding-right: 18px; } }
 
 /*----------------------------

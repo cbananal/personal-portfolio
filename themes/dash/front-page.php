@@ -74,7 +74,7 @@ get_header(); ?>
 		<!-- end loop -->
 
 		<div class="passion-grid">
-			<div class="main-passion">
+			<div class="main-passions">
 				<div>
 					<i class="fa fa-paint-brush fa-2x"></i>
 					<a href="#"><h2>Print &#47; User<br> Interface Design</h2></a>
@@ -85,7 +85,7 @@ get_header(); ?>
 				</div>
 			</div>
 			<!--end main-passion-->
-			<div class="secondary-passion">
+			<div class="secondary-passions">
 				<div>
 					<i class="fa fa-camera-retro fa-2x"></i>
 					<a href="#"><h2>Photography</h2></a>

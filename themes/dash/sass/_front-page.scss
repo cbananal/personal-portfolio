@@ -69,9 +69,9 @@
   }
 }
 
-//Shared styles of BOTH main-passion and secondary-passion
-.main-passion,
-.secondary-passion {
+//Shared styles of BOTH main-passions and secondary-passions
+.main-passions,
+.secondary-passions {
   div {
     width: 100%;
     min-height: 120px;
@@ -96,9 +96,9 @@
   }
 }
 
-//Styles for main-passion only
+//Styles for main-passions only
 @include tablet {
-  .main-passion div:first-child {
+  .main-passions div:first-child {
     border-right: $border_default;
     a {
       order: 2;
@@ -106,8 +106,8 @@
   }
 }
 
-//Styles for secondary-passion only
-.secondary-passion {
+//Styles for secondary-passions only
+.secondary-passions {
   div:last-child {
     border-bottom: 0;
   }
