@@ -981,6 +981,14 @@ i {
 /*---------- Slider ----------*/
 #wpflickity-1 {
   margin: 30px 0 60px; }
+  @media (min-width: 1000px) {
+    #wpflickity-1 .flickity-viewport {
+      width: auto;
+      height: 80vh !important; } }
+
+@media (min-width: 1000px) {
+  .flickity-slider img {
+    transform: translateY(-20%); } }
 
 /*---------- Passion Grid ----------*/
 .passion-grid {

@@ -21,6 +21,18 @@
 
 #wpflickity-1 {
   margin: 30px 0 60px;
+  .flickity-viewport {
+    @include desktop {
+      width: auto;
+      height: 80vh !important; //Important needed to override plugin style
+    }
+  }
+}
+
+.flickity-slider img {
+  @include desktop {
+    transform: translateY(-20%);
+  }
 }
 
 
