@@ -1008,71 +1008,89 @@ i {
     color: #a29f9f;
     -ms-flex-item-align: center;
         align-self: center; }
-  @media (min-width: 1000px) {
+  @media (min-width: 600px) {
     .passion-grid {
-      max-width: 720px;
+      max-width: 580px;
       margin: 0 auto 30px;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; } }
+  @media (min-width: 1000px) {
+    .passion-grid {
+      max-width: 750px; } }
 
-.main-passion,
-.secondary-passion {
-  padding: 5px 0; }
-  .main-passion div,
-  .secondary-passion div {
+.main-passion div,
+.secondary-passion div {
+  width: 100%;
+  min-height: 120px;
+  max-height: 120px;
+  padding: 10px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border-bottom: 1px dashed #bab9b9; }
+
+@media (min-width: 600px) {
+  .main-passion,
+  .secondary-passion {
     width: 100%;
-    min-height: 100px;
-    padding: 10px 0;
+    padding: 8px 0;
+    border-bottom: 1px dashed #bab9b9;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-pack: center;
-        justify-content: center;
-    -ms-flex-align: center;
-        align-items: center;
-    border-bottom: 1px dashed #bab9b9; }
-  @media (min-width: 1000px) {
-    .main-passion,
-    .secondary-passion {
-      width: 100%;
-      padding: 8px 0;
-      border-bottom: 1px dashed #bab9b9;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap; }
-      .main-passion div,
-      .secondary-passion div {
-        border-bottom: 0; } }
+    -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap; }
+    .main-passion div,
+    .secondary-passion div {
+      border-bottom: 0; } }
 
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
   .main-passion div:first-child {
     border-right: 1px dashed #bab9b9; } }
 
 .secondary-passion div:last-child {
   border-bottom: 0; }
 
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
   .secondary-passion {
     border-bottom: 0; }
     .secondary-passion div {
+      width: 33.3%;
       min-height: 20px; }
     .secondary-passion h2 {
-      font-size: 1rem; }
+      font-size: 0.9rem; }
     .secondary-passion i {
-      font-size: 1.4rem; }
+      font-size: 1.2rem; }
     .secondary-passion div:first-child {
       border-right: 1px dashed #bab9b9; }
     .secondary-passion div:nth-child(2) {
+      padding-right: 10px;
       border-right: 1px dashed #bab9b9;
       display: -ms-flexbox;
-      display: flex; }
+      display: flex;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-preferred-size: 35%;
+          flex-basis: 35%;
+      -ms-flex-line-pack: start;
+          align-content: flex-start; }
       .secondary-passion div:nth-child(2) a {
         -ms-flex-order: 2;
             order: 2; } }
+
+@media (min-width: 1000px) {
+  .secondary-passion h2 {
+    font-size: 1rem; }
+  .secondary-passion i {
+    font-size: 1.4rem; }
+  .secondary-passion div:nth-child(2) {
+    padding-right: 18px; } }
 
 /*----------------------------
   Dash: About Page
