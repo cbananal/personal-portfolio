@@ -1109,6 +1109,18 @@ i {
       flex-direction: column;
   -ms-flex-align: center;
       align-items: center; }
+  @media (min-width: 1000px) {
+    .skills-container {
+      width: 60%;
+      margin: 0 auto;
+      padding: 0;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      -ms-flex-align: start;
+          -ms-grid-row-align: flex-start;
+          align-items: flex-start; } }
 
 .skill-set,
 .tools-languages {
@@ -1118,6 +1130,14 @@ i {
   text-align: center;
   border: 1px dashed #bab9b9;
   position: relative; }
+  @media (min-width: 1000px) {
+    .skill-set,
+    .tools-languages {
+      width: 45%;
+      min-height: 410px;
+      height: auto;
+      padding: 25px 0 0;
+      font-size: 0.9rem; } }
 
 .skill-set h3 {
   width: 140px;
@@ -1134,6 +1154,10 @@ i {
   right: 0;
   bottom: 0;
   left: 0; }
+
+@media (min-width: 1000px) {
+  .skill-set {
+    margin: 15px 0 15px 0; } }
 
 .tools-languages {
   margin-bottom: 5px; }
@@ -1152,6 +1176,9 @@ i {
     right: 0;
     bottom: 0;
     left: 0; }
+  @media (min-width: 1000px) {
+    .tools-languages {
+      margin: 15px 0 0 15px; } }
 
 /*---------- About Write-Up ----------*/
 .page-template-about .entry-content {

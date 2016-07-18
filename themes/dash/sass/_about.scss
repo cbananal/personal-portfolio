@@ -17,6 +17,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @include desktop {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 }
 
 .skill-set,
@@ -27,11 +35,24 @@
   text-align: center;
   border: $border-default;
   position: relative;
+  @include desktop {
+    width: 45%;
+    min-height: 410px;
+    height: auto;
+    padding: 25px 0 0;
+    font-size: 0.9rem;
+  }
 }
 
-.skill-set h3 {
-  width: 140px;
-  @include about-heading;
+.skill-set {
+  h3 {
+    width: 140px;
+    @include about-heading;
+  }
+
+  @include desktop {
+    margin: 15px 0 15px 0;
+  }
 }
 
 .tools-languages {
@@ -39,6 +60,10 @@
   h3 {
     width: 250px;
     @include about-heading;
+  }
+
+  @include desktop {
+    margin: 15px 0 0 15px;
   }
 }
 
