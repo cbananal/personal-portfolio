@@ -1332,9 +1332,13 @@ i {
 .contact-container .wpcf7-mail-sent-ok {
   border: 1px dashed #abd173; }
 
+@media (min-width: 600px) {
+  .contact-container .wpcf7 {
+    width: 80%;
+    margin: auto; } }
+
 @media (min-width: 1000px) {
   .contact-container {
-    width: 80%;
     margin: 0 auto 20px;
     display: -ms-flexbox;
     display: flex;

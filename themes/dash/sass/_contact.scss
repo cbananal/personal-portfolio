@@ -57,8 +57,14 @@
     border: 1px dashed $color_form-sent-ok;
   }
 
+  @include tablet {
+    .wpcf7 {
+      width: 80%;
+      margin: auto;
+    }
+  }
+
   @include desktop {
-    width: 80%;
     margin: 0 auto 20px;
     display: flex;
     justify-content: space-around;
