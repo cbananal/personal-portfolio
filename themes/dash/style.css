@@ -1011,7 +1011,7 @@ i {
   @media (min-width: 600px) {
     .passion-grid {
       max-width: 580px;
-      margin: 0 auto 30px;
+      margin: 0 auto 45px;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-flow: row wrap;
