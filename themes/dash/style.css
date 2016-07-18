@@ -1186,6 +1186,11 @@ i {
   padding: 20px 20px 0;
   border-top: 1px dashed #bab9b9;
   position: relative; }
+  @media (min-width: 1000px) {
+    .page-template-about .entry-content {
+      width: 90%;
+      margin: 50px auto 0;
+      padding: 30px 8px 0; } }
 
 .her-story {
   width: 160px;
