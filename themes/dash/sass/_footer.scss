@@ -8,11 +8,13 @@
 }
 
 .site-footer {
-  margin-top: 30px;
+  width: 100%;
+  margin: 30px auto 25px;
+  padding: 0 80px;
   text-align: center;
   i {
-    font-size: 1.2rem;
     margin: 0 2px;
+    font-size: 1.2rem;
     color: $color_icons;
     &:hover {
       color: $color_links-hover;
@@ -21,5 +23,25 @@
   p {
     font-size: 0.7rem;
     line-height: normal;
+  }
+
+  @include desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .social {
+      width: 50%;
+      height: 25px;
+      text-align: right;
+      order: 2;
+    }
+    i {
+      font-size: 1.4rem;
+    }
+    p {
+      width: 50%;
+      text-align: left;
+    }
   }
 }

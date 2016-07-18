@@ -1220,14 +1220,37 @@ i {
   display: none; }
 
 .site-footer {
-  margin-top: 30px;
+  width: 100%;
+  margin: 30px auto 25px;
+  padding: 0 80px;
   text-align: center; }
   .site-footer i {
-    font-size: 1.2rem;
     margin: 0 2px;
+    font-size: 1.2rem;
     color: #a29f9f; }
     .site-footer i:hover {
       color: #58585a; }
   .site-footer p {
     font-size: 0.7rem;
     line-height: normal; }
+  @media (min-width: 1000px) {
+    .site-footer {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      -ms-flex-align: center;
+          align-items: center; }
+      .site-footer .social {
+        width: 50%;
+        height: 25px;
+        text-align: right;
+        -ms-flex-order: 2;
+            order: 2; }
+      .site-footer i {
+        font-size: 1.4rem; }
+      .site-footer p {
+        width: 50%;
+        text-align: left; } }
