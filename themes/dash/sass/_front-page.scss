@@ -48,21 +48,6 @@
   border-width: 1px 0;
   border-style: dashed;
   border-color: $color_border;
-  div {
-    padding: 10px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border-bottom: $border_default;
-    &:nth-child(3),
-    &:nth-child(4) {
-      padding: 20px 0;
-    }
-    &:last-child {
-      padding: 20px 0;
-      border-bottom: 0;
-    }
-  }
   h2 {
     font-size: 1.3rem;
   }
@@ -70,5 +55,73 @@
     margin: 0 10px;
     color: $color_icons;
     align-self: center;
+  }
+
+  @include desktop {
+    max-width: 720px;
+    margin: 0 auto 30px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+}
+
+.main-passion,
+.secondary-passion {
+  padding: 5px 0;
+  div {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px 0;
+    display: flex; //For icons and headings
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: $border_default;
+  }
+
+  @include desktop {
+    width: 100%;
+    padding: 8px 0;
+    border-bottom: $border_default;
+    display: flex;
+    flex-flow: row nowrap;
+    div {
+      border-bottom: 0
+    }
+  }
+}
+
+@include desktop {
+  .main-passion div:first-child {
+    border-right: $border_default;
+  }
+}
+
+.secondary-passion {
+  div:last-child {
+    border-bottom: 0;
+  }
+
+  @include desktop {
+    border-bottom: 0;
+    div {
+      min-height: 20px;
+    }
+    h2 {
+      font-size: 1rem;
+    }
+    i {
+      font-size: 1.4rem;
+    }
+    div:first-child {
+      border-right: $border_default;
+    }
+    div:nth-child(2) { //Creative Writing section
+      border-right: $border_default;
+      display: flex;
+      a {
+        order: 2;
+      }
+    }
   }
 }

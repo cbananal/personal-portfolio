@@ -73,27 +73,33 @@ get_header(); ?>
 		<?php endif; ?>
 		<!-- end loop -->
 
-		<div class="passion-grid container">
-			<div>
-				<i class="fa fa-paint-brush fa-2x"></i>
-				<a href="#"><h2>Print &#47; User<br> Interface Design</h2></a>
+		<div class="passion-grid">
+			<div class="main-passion">
+				<div>
+					<i class="fa fa-paint-brush fa-2x"></i>
+					<a href="#"><h2>Print &#47; User<br> Interface Design</h2></a>
+				</div>
+				<div>
+					<a href="#"><h2>Front-End Web<br> Development</h2></a>
+					<i class="fa fa-code fa-2x"></i>
+				</div>
 			</div>
-			<div>
-				<a href="#"><h2>Front-End Web<br> Development</h2></a>
-				<i class="fa fa-code fa-2x"></i>
+			<!--end main-passion-->
+			<div class="secondary-passion">
+				<div>
+					<i class="fa fa-camera-retro fa-2x"></i>
+					<a href="#"><h2>Photography</h2></a>
+				</div>
+				<div>
+					<a href="#"><h2>Creative Writing</h2></a>
+					<i class="fa fa-pencil fa-2x"></i>
+				</div>
+				<div>
+					<i class="fa fa-scissors fa-2x"></i>
+					<a href="#"><h2>Arts &amp; Crafts</h2></a>
+				</div>
 			</div>
-			<div>
-				<i class="fa fa-camera-retro fa-2x"></i>
-				<a href="#"><h2>Photography</h2></a>
-			</div>
-			<div>
-				<a href="#"><h2>Creative Writing</h2></a>
-				<i class="fa fa-pencil fa-2x"></i>
-			</div>
-			<div>
-				<i class="fa fa-scissors fa-2x"></i>
-				<a href="#"><h2>Arts &amp; Crafts</h2></a>
-			</div>
+			<!--end secondary-passion-->
 		</div>
 		<!--end passion-grid-->
 

@@ -1001,20 +1001,6 @@ i {
   border-width: 1px 0;
   border-style: dashed;
   border-color: #bab9b9; }
-  .passion-grid div {
-    padding: 10px 0;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-pack: center;
-        justify-content: center;
-    border-bottom: 1px dashed #bab9b9; }
-    .passion-grid div:nth-child(3), .passion-grid div:nth-child(4) {
-      padding: 20px 0; }
-    .passion-grid div:last-child {
-      padding: 20px 0;
-      border-bottom: 0; }
   .passion-grid h2 {
     font-size: 1.3rem; }
   .passion-grid i {
@@ -1022,6 +1008,71 @@ i {
     color: #a29f9f;
     -ms-flex-item-align: center;
         align-self: center; }
+  @media (min-width: 1000px) {
+    .passion-grid {
+      max-width: 720px;
+      margin: 0 auto 30px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; } }
+
+.main-passion,
+.secondary-passion {
+  padding: 5px 0; }
+  .main-passion div,
+  .secondary-passion div {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    border-bottom: 1px dashed #bab9b9; }
+  @media (min-width: 1000px) {
+    .main-passion,
+    .secondary-passion {
+      width: 100%;
+      padding: 8px 0;
+      border-bottom: 1px dashed #bab9b9;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap; }
+      .main-passion div,
+      .secondary-passion div {
+        border-bottom: 0; } }
+
+@media (min-width: 1000px) {
+  .main-passion div:first-child {
+    border-right: 1px dashed #bab9b9; } }
+
+.secondary-passion div:last-child {
+  border-bottom: 0; }
+
+@media (min-width: 1000px) {
+  .secondary-passion {
+    border-bottom: 0; }
+    .secondary-passion div {
+      min-height: 20px; }
+    .secondary-passion h2 {
+      font-size: 1rem; }
+    .secondary-passion i {
+      font-size: 1.4rem; }
+    .secondary-passion div:first-child {
+      border-right: 1px dashed #bab9b9; }
+    .secondary-passion div:nth-child(2) {
+      border-right: 1px dashed #bab9b9;
+      display: -ms-flexbox;
+      display: flex; }
+      .secondary-passion div:nth-child(2) a {
+        -ms-flex-order: 2;
+            order: 2; } }
 
 /*----------------------------
   Dash: About Page
