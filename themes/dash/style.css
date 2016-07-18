@@ -1052,7 +1052,10 @@ i {
 
 @media (min-width: 600px) {
   .main-passion div:first-child {
-    border-right: 1px dashed #bab9b9; } }
+    border-right: 1px dashed #bab9b9; }
+    .main-passion div:first-child a {
+      -ms-flex-order: 2;
+          order: 2; } }
 
 .secondary-passion div:last-child {
   border-bottom: 0; }
