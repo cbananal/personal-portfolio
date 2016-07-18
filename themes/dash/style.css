@@ -801,7 +801,7 @@ object {
     .site-header {
       width: 90%;
       height: 50px;
-      margin: 55px auto; } }
+      margin: 55px auto 20px; } }
 
 .logo {
   width: 78px;
