@@ -22,63 +22,46 @@ get_header(); ?>
 				<h1 class="entry-title"><?php $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) ); echo $term->name; ?></h1></a>
 			</header><!-- .entry-header -->
 
-			<?php
-			while ( have_posts() ) : the_post(); ?>
-
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
-				<div class="entry-content">
-					<div class="projects-container">
-						<div class="project-box">
-							<div class="project-image">
-								<?php the_post_thumbnail(); ?>
-								<a href="<?php echo get_permalink(); ?>">
-									<div class="project-hovered">
-										<p class="animated flipInY">&#10511;</p>
-									</div>
-								</a>
+			<div class="entry-content">
+				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+					<div class="project-grid-container">
+						<?php while ( have_posts() ) : the_post(); ?>
+							
+							<div class="project-box">
+								<div class="project-image">
+									<?php the_post_thumbnail(); ?>
+									<a href="<?php echo get_permalink(); ?>">
+										<div class="project-hovered">
+											<p class="animated flipInY">&#10511;</p>
+										</div>
+									</a>
+								</div>
+								<div class="project-info">
+									<?php the_title( '<h4>', '</h4>' ); ?>
+									<div><?php echo CFS()-> get( 'work_description' ); ?></div>
+								</div>
+								<!--end project-info-->
 							</div>
-							<div class="project-info">
-								<?php the_title( '<h4>', '</h4>' ); ?>
-								<div><?php echo CFS()-> get( 'work_description' ); ?></div>
-							</div>
-							<!--end project-info-->
-						</div>
-						<!--end project-box-->
-						<!--end projects-container-->
+							<!--end project-box-->
+
+							<!-- <?php wp_link_pages( array(
+									'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'dash' ),
+									'after'  => '</div>',
+								) ); ?> -->
+
+							<!-- If comments are open or we have at least one comment, load up the comment template. -->
+							<!-- <?php if ( comments_open() || get_comments_number() ) :
+								comments_template();
+							endif; ?> -->
+
+						<?php endwhile; ?>
+						<!--end loop-->
+
 					</div>
-					<!--end works-container-->
-				</div><!-- .entry-content -->
-
-				<!-- <?php wp_link_pages( array(
-						'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'dash' ),
-						'after'  => '</div>',
-					) ); ?> -->
-
-				<?php if ( get_edit_post_link() ) : ?>
-					<footer class="entry-footer">
-						<?php
-							edit_post_link(
-								sprintf(
-									/* translators: %s: Name of current post */
-									esc_html__( 'Edit %s', 'dash' ),
-									the_title( '<span class="screen-reader-text">"', '"</span>', false )
-								),
-								'<span class="edit-link">',
-								'</span>'
-							);
-						?>
-					</footer><!-- .entry-footer -->
-				<?php endif; ?>
-			</article><!-- #post-## -->
-
-				<!-- If comments are open or we have at least one comment, load up the comment template. -->
-				<?php if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif; ?>
-
-			<?php endwhile; ?>
-			<!--end loop-->
+					<!--end project-grid-->
+				</article><!-- #post-## -->
+			</div>
+			<!-- end entry-content -->
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

@@ -2,15 +2,31 @@
   Dash: Work-Type Taxonomy
 -----------------------------*/
 
-.projects-container {
+.project-grid-container {
   width: 100%;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
+  align-items: center;
+
+  @include desktop {
+    width: 85%;
+    margin: 0 auto;
+    padding-left: 8px;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 }
 
 .project-box {
+  width: 90%;
   margin: 5px 0;
+
+  @include desktop {
+    width: 29%;
+    margin: 5px 2% 35px;
+  }
 }
 
 .project-image {
