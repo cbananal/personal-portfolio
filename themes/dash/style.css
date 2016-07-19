@@ -1228,11 +1228,8 @@ i {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center; }
-  @media (min-width: 1000px) {
+  @media (min-width: 600px) {
     .project-grid-container {
-      width: 85%;
-      margin: 0 auto;
-      padding-left: 8px;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
       -ms-flex-pack: start;
@@ -1240,14 +1237,22 @@ i {
       -ms-flex-align: start;
           -ms-grid-row-align: flex-start;
           align-items: flex-start; } }
+  @media (min-width: 1000px) {
+    .project-grid-container {
+      width: 85%;
+      margin: 0 auto;
+      padding-left: 8px; } }
 
 .project-box {
   width: 90%;
-  margin: 5px 0; }
+  margin: 5px 0 35px; }
+  @media (min-width: 600px) {
+    .project-box {
+      max-width: 46%;
+      margin: 5px 2% 35px; } }
   @media (min-width: 1000px) {
     .project-box {
-      width: 29%;
-      margin: 5px 2% 35px; } }
+      width: 29%; } }
 
 .project-image {
   width: 100%;
