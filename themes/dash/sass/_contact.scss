@@ -68,23 +68,24 @@
     width: 80%;
     margin: 0 auto 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     .contact-image {
-      width: 50%;
-      height: 515px;
+      max-width: 50%;
+      max-height: 515px;
+      margin-right: 20px;
       border: 1px solid $color_border;
       overflow: hidden;
       img {
         width: 100%;
         max-width: none;
         height: auto;
-        transform: translateY(-50px);
+        transform: translateY(-25px);
         display: block;
       }
     }
     .wpcf7 {
-      flex-basis: 40%;
+      flex-basis: 50%;
       align-self: flex-start;
       p {
         margin-top: 0; //Vertically aligns the form with accompanying photo at flex-start

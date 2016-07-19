@@ -1343,24 +1343,25 @@ i {
     margin: 0 auto 20px;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
     -ms-flex-align: start;
         align-items: flex-start; }
     .contact-container .contact-image {
-      width: 50%;
-      height: 515px;
+      max-width: 50%;
+      max-height: 515px;
+      margin-right: 20px;
       border: 1px solid #bab9b9;
       overflow: hidden; }
       .contact-container .contact-image img {
         width: 100%;
         max-width: none;
         height: auto;
-        transform: translateY(-50px);
+        transform: translateY(-25px);
         display: block; }
     .contact-container .wpcf7 {
-      -ms-flex-preferred-size: 40%;
-          flex-basis: 40%;
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
       -ms-flex-item-align: start;
           align-self: flex-start; }
       .contact-container .wpcf7 p {
