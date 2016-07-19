@@ -120,6 +120,25 @@
   }
 }
 
+//Separator between each parent menu item
+@include desktop {
+  #primary-menu > li {
+    margin: 2px 5px;
+    position: relative;
+  }
+  #primary-menu > li:after {
+    content: '/';
+    color: $color_slash;
+    display: inline-block;
+    position: absolute;
+    right: -7px;
+    top: 0;
+  }
+  #primary-menu > li:last-child:after {
+    content: none;
+  }
+}
+
 .menu-item-has-children {
   cursor: pointer;
 }
