@@ -12,13 +12,15 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<section class="error-404 not-found">
+			<section class="error-404 not-found container">
 				<header class="page-header">
-					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'dash' ); ?></h1>
+					<h1 class="page-title"><?php esc_html_e( 'Whooops! You fell down the rabbit hole!', 'dash' ); ?></h1>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
-					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'dash' ); ?></p>
+					<p><?php esc_html_e( 'One day Alice came to a fork in the road and saw a Cheshire cat in a tree. ', 'dash' ); ?></p>
+					<p><?php esc_html_e( '"Which road do I take?" she asked. ', 'dash' ); ?></p>
+					<p><?php esc_html_e( '"Where do you want to go?" was his response. ', 'dash' ); ?></p>
 
 					<?php
 						get_search_form();
