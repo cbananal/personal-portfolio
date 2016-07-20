@@ -143,6 +143,10 @@
     right: 0;
     top: 0;
 
+    @include desktop {
+      right: -2px;
+    }
+
     @include desktop-second-fix {
       right: -9px;
     }

@@ -909,6 +909,9 @@ object {
     position: absolute;
     right: 0;
     top: 0; } }
+  @media (min-width: 1000px) and (min-width: 1000px) {
+    #primary-menu > li:after {
+      right: -2px; } }
   @media (min-width: 1000px) and (min-width: 1190px) {
     #primary-menu > li:after {
       right: -9px; } }
