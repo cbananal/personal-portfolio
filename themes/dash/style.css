@@ -885,11 +885,6 @@ object {
       .menu-main-navigation-container li {
         width: auto; } }
 
-.menu > li {
-  margin: 3px 0; }
-  .menu > li:last-child {
-    margin-bottom: 18px; }
-
 @media (min-width: 1000px) {
   #primary-menu > li {
     margin: 2px 0px;
@@ -924,7 +919,9 @@ object {
     .main-navigation .sub-menu,
     .main-navigation.toggled .sub-menu {
       margin-top: 10px;
-      border-width: 0 1px 1px; } }
+      border-width: 0 1px 1px;
+      position: absolute;
+      left: 0; } }
   .main-navigation .sub-menu a,
   .main-navigation.toggled .sub-menu a {
     text-align: center;

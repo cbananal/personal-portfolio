@@ -112,18 +112,10 @@
   }
 }
 
-//Adjusts line height of parent menu items only
-.menu > li {
-  margin: 3px 0;
-  &:last-child {
-    margin-bottom: 18px;
-  }
-}
-
 //Separator between each parent menu item
 @include desktop {
   #primary-menu > li {
-    margin: 2px 0px;
+    margin: 2px 0px; //Vertically centers parent menu items
     position: relative;
   }
   #primary-menu > li:after {
@@ -159,6 +151,8 @@
   @include desktop {
     margin-top: 10px;
     border-width: 0 1px 1px;
+    position: absolute;
+    left: --0
   }
   a {
     text-align: center;
