@@ -77,10 +77,10 @@ get_header(); ?>
 			<div class="main-passions">
 				<div>
 					<i class="fa fa-paint-brush fa-2x"></i>
-					<a href="#"><h2>Print &#47; User<br> Interface Design</h2></a>
+					<a href="./work-type/print-ui-design"><h2>Print &#47; User<br> Interface Design</h2></a>
 				</div>
 				<div>
-					<a href="#"><h2>Front-End Web<br> Development</h2></a>
+					<a href="./work-type/web-development"><h2>Front-End Web<br> Development</h2></a>
 					<i class="fa fa-code fa-2x"></i>
 				</div>
 			</div>
@@ -88,15 +88,15 @@ get_header(); ?>
 			<div class="secondary-passions">
 				<div>
 					<i class="fa fa-camera-retro fa-2x"></i>
-					<a href="#"><h2>Photography</h2></a>
+					<a href="./work-type/photography"><h2>Photography</h2></a>
 				</div>
 				<div>
-					<a href="#"><h2>Creative Writing</h2></a>
+					<a href="./work-type/creative-writing"><h2>Creative Writing</h2></a>
 					<i class="fa fa-pencil fa-2x"></i>
 				</div>
 				<div>
 					<i class="fa fa-scissors fa-2x"></i>
-					<a href="#"><h2>Arts &amp; Crafts</h2></a>
+					<a href="./work-type/arts-crafts"><h2>Arts &amp; Crafts</h2></a>
 				</div>
 			</div>
 			<!--end secondary-passion-->
