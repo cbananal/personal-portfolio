@@ -7,6 +7,7 @@
 $breakpoint_tablet: 600px;
 $breakpoint_desktop: 1000px;
 $breakpoint_desktop-fix: 1079px; //Keeps primary menu block from breaking when sub-menu is open
+$breakpoint_desktop-second-fix: 1190px; //Keeps primary menu block when left ad right margins of menu items are increased
 
 
 /*---------- Fonts ----------*/

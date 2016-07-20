@@ -34,10 +34,16 @@
   }
 }
 
-
 //Keeps primary menu block from breaking when sub-menu is open
 @mixin desktop-fix {
   @media (min-width: $breakpoint_desktop-fix) {
+    @content;
+  }
+}
+
+//Keeps primary menu block when left ad right margins of menu items are increased
+@mixin desktop-second-fix {
+  @media (min-width: $breakpoint_desktop-second-fix) {
     @content;
   }
 }
