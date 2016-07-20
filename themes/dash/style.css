@@ -899,7 +899,7 @@ object {
     color: #bab9b9;
     display: inline-block;
     position: absolute;
-    right: -7px;
+    right: 0;
     top: 0; }
   #primary-menu > li:last-child:after {
     content: none; } }
