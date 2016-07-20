@@ -20,7 +20,7 @@
 			<a href="http://www.codepen.io/cbananal" target="_blank"><i class="fa fa-codepen"></i></a>
 			<a href="http://www.twitter.com/unfinished_art" target="_blank"><i class="fa fa-twitter"></i></a>
 		</div>
-		<p>Copyright <?php the_date('Y'); ?> <span class="slash-style">&#47;</span> Claudine Bananal<br>Created, as always, with love.</p>
+		<p>Copyright <?php the_date('Y'); ?> <span class="slash-style">&#47;</span> Claudine Bananal<br>Built, as always, with love.</p>
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'dash' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'dash' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
