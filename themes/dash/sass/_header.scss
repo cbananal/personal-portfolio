@@ -125,32 +125,34 @@
   }
 }
 
-//Separator between each parent menu item
-@include desktop {
-  #primary-menu > li {
+//For separator between each parent menu item
+#primary-menu > li {
+  @include desktop {
     margin: 2px 0px; //Vertically centers parent menu items
     position: relative;
-
-    @include desktop-second-fix {
-      margin: 2px 5px;
-    }
   }
-  #primary-menu > li:after {
+
+  @include desktop-second-fix {
+    margin: 2px 5px;
+  }
+}
+
+#primary-menu > li:after {
+  @include desktop {
     content: '/';
     color: $color_slash;
     display: inline-block;
     position: absolute;
-    right: 0;
+    right: -3px;
     top: 0;
-
-    @include desktop {
-      right: -2px;
-    }
-
-    @include desktop-second-fix {
-      right: -9px;
-    }
   }
+
+  @include desktop-second-fix {
+    right: -9px;
+  }
+}
+
+@include desktop {
   #primary-menu > li:last-child:after {
     content: none;
   }

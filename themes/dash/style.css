@@ -897,9 +897,10 @@ object {
   #primary-menu > li {
     margin: 2px 0px;
     position: relative; } }
-  @media (min-width: 1000px) and (min-width: 1190px) {
-    #primary-menu > li {
-      margin: 2px 5px; } }
+
+@media (min-width: 1190px) {
+  #primary-menu > li {
+    margin: 2px 5px; } }
 
 @media (min-width: 1000px) {
   #primary-menu > li:after {
@@ -907,14 +908,12 @@ object {
     color: #bab9b9;
     display: inline-block;
     position: absolute;
-    right: 0;
+    right: -3px;
     top: 0; } }
-  @media (min-width: 1000px) and (min-width: 1000px) {
-    #primary-menu > li:after {
-      right: -2px; } }
-  @media (min-width: 1000px) and (min-width: 1190px) {
-    #primary-menu > li:after {
-      right: -9px; } }
+
+@media (min-width: 1190px) {
+  #primary-menu > li:after {
+    right: -9px; } }
 
 @media (min-width: 1000px) {
   #primary-menu > li:last-child:after {
