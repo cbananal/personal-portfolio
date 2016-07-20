@@ -1,0 +1,57 @@
+/*----------------------------
+  Dash: Error 404 Page
+-----------------------------*/
+
+.error404 {
+
+  .search-form,
+  .widget {
+    display: none;
+  }
+
+  //Page Title
+  .page-header {
+    width: 320px;
+    height: 75px;
+    margin: 40px auto 20px;
+    font-size: 1rem;
+    line-height: 1.4;
+
+    @include tablet {
+      width: 400px;
+    }
+
+    @include desktop {
+      width: 80%;
+      margin-bottom: 0;
+    }
+  }
+
+  //Page title and content
+  .error-404 {
+    height: 60vh;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-style: italic;
+    }
+  }
+
+  //"Alice in Wonderland" excerpt content
+  .page-content {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 0px 35px 10px;
+    border-width: 0 1px 1px;
+    border-style: dashed;
+    border-color: $color_border;
+
+    @include tablet {
+      width: 500px;
+    }
+  }
+}
