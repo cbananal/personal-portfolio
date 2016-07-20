@@ -21,6 +21,7 @@
 
 
 /*---------- Media Queries ----------*/
+
 @mixin tablet {
   @media (min-width: $breakpoint_tablet) {
     @content;
@@ -29,6 +30,14 @@
 
 @mixin desktop {
   @media (min-width: $breakpoint_desktop) {
+    @content;
+  }
+}
+
+
+//Keeps primary menu block from breaking when sub-menu is open
+@mixin desktop-fix {
+  @media (min-width: $breakpoint_desktop-fix) {
     @content;
   }
 }
