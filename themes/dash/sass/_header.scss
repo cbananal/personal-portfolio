@@ -103,11 +103,16 @@
     width: 100%;
     height: auto;
     margin: 0 auto;
-    padding: 0 25px;
     text-align: center;
     top: 0;
+
     @include desktop {
       width: auto;
+      padding: 0 19px;
+    }
+
+    @include desktop-fix {
+      padding: 0 25px;
     }
   }
 }
