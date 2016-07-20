@@ -892,7 +892,7 @@ object {
 
 @media (min-width: 1000px) {
   #primary-menu > li {
-    margin: 2px 5px;
+    margin: 2px 0px;
     position: relative; }
   #primary-menu > li:after {
     content: '/';
