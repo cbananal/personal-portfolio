@@ -2,7 +2,7 @@ jQuery(document).ready(function() {
 
   //Animate icons on passion-grid section
   jQuery('.passion-grid div').on('hover', function() {
-    jQuery(this).children('i').addClass('animated swing');
+    jQuery(this).children('i').toggleClass('animated swing');
   });
 
   //Toggle Menu Nav
@@ -17,11 +17,6 @@ jQuery(document).ready(function() {
       jQuery('.main-navigation .sub-menu').css({position:"relative", top:"0", left:"0"});
     });
 
-    // jQuery(this).children('.sub-menu').toggle(function() {
-    //   jQuery('.main-navigation .sub-menu').css("display", "inline-block");
-    // });
-
   });
-
 
 }); //end document ready
