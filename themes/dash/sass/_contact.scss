@@ -37,6 +37,9 @@
     border-radius: 0;
     outline-color: $color_form-outline;
   }
+  .wpcf7-form textarea {
+    padding: 10px 15px; //Overrides declaration above
+  }
   .wpcf7-submit {
     height: 50px;
     padding: 5px;

@@ -1396,6 +1396,9 @@ i {
   border-radius: 0;
   outline-color: #58585a; }
 
+.contact-container .wpcf7-form textarea {
+  padding: 10px 15px; }
+
 .contact-container .wpcf7-submit {
   height: 50px;
   padding: 5px;
