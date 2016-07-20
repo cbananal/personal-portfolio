@@ -1215,18 +1215,17 @@ i {
 
 /*---------- About Write-Up ----------*/
 .page-template-about .entry-content {
-  margin-top: 50px;
+  margin-top: 52px;
   padding: 20px 20px 0;
   border-top: 1px dashed #bab9b9;
   position: relative; }
   @media (min-width: 1000px) {
     .page-template-about .entry-content {
       width: 90%;
-      margin: 50px auto 0;
+      margin: 52px auto 0;
       padding: 30px 8px 0; } }
 
 .her-story {
-  width: 160px;
   height: 30px;
   margin: 0 auto;
   padding: 0 10px;
@@ -1239,7 +1238,10 @@ i {
   top: -15px;
   right: 0;
   bottom: 0;
-  left: 0; }
+  left: 0;
+  width: 160px;
+  font-size: 1.4rem;
+  padding: 0 20px; }
 
 .word-play {
   font-family: "Bariol Regular Italic", sans-serif; }
