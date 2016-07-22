@@ -1355,6 +1355,9 @@ i {
   width: 90%;
   margin: 0 auto; }
 
+.single-portfolio .post-navigation {
+  display: none; }
+
 .project-details {
   width: 90%;
   height: auto;
