@@ -17,6 +17,11 @@
     display: none;
   }
 
+  //For some project images in single posts page that is better shown with a border
+  .project-image-showcase {
+    border: $border_default;
+  }
+
 }
 
 .project-details {

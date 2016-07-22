@@ -1358,6 +1358,9 @@ i {
 .single-portfolio .post-navigation {
   display: none; }
 
+.single-portfolio .project-image-showcase {
+  border: 1px dashed #bab9b9; }
+
 .project-details {
   width: 90%;
   height: auto;
