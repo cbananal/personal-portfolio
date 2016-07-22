@@ -1,0 +1,59 @@
+/*----------------------------
+  Dash: Single Posts for Custom Portfolio  Post Type
+-----------------------------*/
+
+.single-portfolio {
+
+  .entry-title {
+    margin: 55px auto 45px;
+  }
+
+  .entry-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+}
+
+.project-details {
+  width: 90%;
+  height: auto;
+  margin: 0 auto 40px;
+
+  .cfs-hyperlink {
+    padding: 8px 12px;
+    color: #fff;
+    font-size: 0.8rem;
+    font-family: $font_accent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: $color_default-text;
+    &:hover {
+      background-color: $color_border;
+      transition: background-color 1s;
+      border: 1px dashed $color_default-text;
+    }
+  }
+
+  @include desktop {
+    width: 80%;
+  }
+}
+
+// @include desktop {
+//   .project-content-container {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     align-items: flex-start;
+//   }
+//
+//   .project-images {
+//     width: 50%;
+//     flex-basis: 10%;
+//   }
+//
+//   .project-details {
+//     width: 50%;
+//   }
+// }

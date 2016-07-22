@@ -35,7 +35,7 @@ get_header(); ?>
 				<?php echo CFS()->get ( 'demo_link' )?>
 			</div>
 			<!--end project-details-->
-			
+
 			<div class="project-images">
 				<?php while ( have_posts() ) : the_post(); ?>
 

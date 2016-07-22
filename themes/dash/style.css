@@ -1346,6 +1346,36 @@ i {
     font-size: 0.8rem; }
 
 /*----------------------------
+  Dash: Single Posts for Custom Portfolio  Post Type
+-----------------------------*/
+.single-portfolio .entry-title {
+  margin: 55px auto 45px; }
+
+.single-portfolio .entry-content {
+  width: 90%;
+  margin: 0 auto; }
+
+.project-details {
+  width: 90%;
+  height: auto;
+  margin: 0 auto 40px; }
+  .project-details .cfs-hyperlink {
+    padding: 8px 12px;
+    color: #fff;
+    font-size: 0.8rem;
+    font-family: "Bariol Regular", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #58585a; }
+    .project-details .cfs-hyperlink:hover {
+      background-color: #bab9b9;
+      transition: background-color 1s;
+      border: 1px dashed #58585a; }
+  @media (min-width: 1000px) {
+    .project-details {
+      width: 80%; } }
+
+/*----------------------------
   Dash: Downloads Page
 -----------------------------*/
 .page-template-downloads .entry-title {
