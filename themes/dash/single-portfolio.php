@@ -29,6 +29,13 @@ get_header(); ?>
 		</header><!-- .entry-header -->
 
 		<div class="project-content-container">
+
+			<div class="project-details">
+				<?php echo CFS()->get ( 'more_information' )?>
+				<?php echo CFS()->get ( 'demo_link' )?>
+			</div>
+			<!--end project-details-->
+			
 			<div class="project-images">
 				<?php while ( have_posts() ) : the_post(); ?>
 
@@ -65,11 +72,6 @@ get_header(); ?>
 			</div>
 			<!--project-images-->
 
-			<div class="project-details">
-				<?php echo CFS()->get ( 'more_information' )?>
-				<?php echo CFS()->get ( 'demo_link' )?>
-			</div>
-			<!--end project-details-->
 		</div>
 		<!--end projec-content-container-->
 
