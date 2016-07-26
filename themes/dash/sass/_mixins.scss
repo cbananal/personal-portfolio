@@ -19,6 +19,23 @@
   left: 0;
 }
 
+//Buttons on Single Portfolio Posts
+@mixin single-portfolio-button {
+  padding: 8px 12px;
+  color: #fff;
+  font-size: 0.8rem;
+  font-family: $font_accent;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: $color_default-text;
+  &:hover {
+    background-color: $color_border;
+    transition: background-color 1s;
+    border: 1px dashed $color_default-text;
+  }
+}
+
 
 /*---------- Media Queries ----------*/
 

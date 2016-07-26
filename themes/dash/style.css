@@ -1373,6 +1373,7 @@ i {
     color: #fff;
     font-size: 0.8rem;
     font-family: "Bariol Regular", sans-serif;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
     background-color: #58585a; }
@@ -1384,10 +1385,8 @@ i {
     .project-details {
       width: 80%; } }
 
-.back-button {
-  display: block;
-  width: 250px;
-  margin: 0 auto 40px;
+a.back-button,
+a.back-button:visited {
   padding: 8px 12px;
   color: #fff;
   font-size: 0.8rem;
@@ -1395,8 +1394,12 @@ i {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-  background-color: #58585a; }
-  .back-button:hover {
+  background-color: #58585a;
+  width: 250px;
+  margin: 0 auto 40px;
+  display: block; }
+  a.back-button:hover,
+  a.back-button:visited:hover {
     background-color: #bab9b9;
     transition: background-color 1s;
     border: 1px dashed #58585a; }
