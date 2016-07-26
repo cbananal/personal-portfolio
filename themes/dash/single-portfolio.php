@@ -12,21 +12,26 @@ get_header(); ?>
 	<div id="primary" class="content-area container">
 		<main id="main" class="site-main" role="main">
 
-		<header class="entry-header">
-			<?php
-				if ( is_single() ) {
-					the_title( '<h1 class="entry-title">', '</h1>' );
-				} else {
-					the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-				}
+		<div class="header-container">
+			<header class="entry-header">
+				<?php
+					if ( is_single() ) {
+						the_title( '<h1 class="entry-title">', '</h1>' );
+					} else {
+						the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+					}
 
-			if ( 'post' === get_post_type() ) : ?>
-			<div class="entry-meta">
-				<?php dash_posted_on(); ?>
-			</div><!-- .entry-meta -->
-			<?php
-			endif; ?>
-		</header><!-- .entry-header -->
+				if ( 'post' === get_post_type() ) : ?>
+				<div class="entry-meta">
+					<?php dash_posted_on(); ?>
+				</div><!-- .entry-meta -->
+				<?php
+				endif; ?>
+			</header><!-- .entry-header -->
+
+			<a class="back-button" href="#" onClick="history.back(); return false;">&#10510; Back to Previous</a>
+		</div>
+		<!--end header-container-->
 
 		<div class="project-content-container">
 
@@ -74,7 +79,7 @@ get_header(); ?>
 
 		</div>
 		<!--end projec-content-container-->
-
+		<a class="back-button" href="#" onClick="history.back(); return false;">&#10510; Back to Previous</a>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
