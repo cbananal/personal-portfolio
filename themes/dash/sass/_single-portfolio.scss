@@ -6,6 +6,10 @@
 
   .entry-title {
     margin: 55px auto 45px;
+
+    @include desktop {
+      margin-bottom: 20px;
+    }
   }
 
   .entry-content {
@@ -46,5 +50,24 @@
 
   @include desktop {
     width: 80%;
+  }
+}
+
+.back-button {
+  display: block;
+  width: 250px;
+  margin: 0 auto 40px;
+  padding: 8px 12px;
+  color: #fff;
+  font-size: 0.8rem;
+  font-family: $font_accent;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: $color_default-text;
+  &:hover {
+    background-color: $color_border;
+    transition: background-color 1s;
+    border: 1px dashed $color_default-text;
   }
 }

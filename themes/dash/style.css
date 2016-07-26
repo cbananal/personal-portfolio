@@ -1350,6 +1350,9 @@ i {
 -----------------------------*/
 .single-portfolio .entry-title {
   margin: 55px auto 45px; }
+  @media (min-width: 1000px) {
+    .single-portfolio .entry-title {
+      margin-bottom: 20px; } }
 
 .single-portfolio .entry-content {
   width: 90%;
@@ -1380,6 +1383,23 @@ i {
   @media (min-width: 1000px) {
     .project-details {
       width: 80%; } }
+
+.back-button {
+  display: block;
+  width: 250px;
+  margin: 0 auto 40px;
+  padding: 8px 12px;
+  color: #fff;
+  font-size: 0.8rem;
+  font-family: "Bariol Regular", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #58585a; }
+  .back-button:hover {
+    background-color: #bab9b9;
+    transition: background-color 1s;
+    border: 1px dashed #58585a; }
 
 /*----------------------------
   Dash: Downloads Page
