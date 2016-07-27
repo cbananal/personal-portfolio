@@ -33,8 +33,22 @@ add_filter( 'body_class', 'dash_body_classes' );
   Dash: Custom Functions
 -----------------------------*/
 
-//Add Custom Logo to Login Screen
+//Add Custom Logo on Log-In Screen
 function claudinebananal_custom_login() {
 	echo '<link rel="stylesheet" type="text/css" href=" ' . get_stylesheet_directory_uri() . '/build/css/custom-login.css"/>';
 }
 add_action ('login_head', 'claudinebananal_custom_login');
+
+
+//Link Logo on Log-In Screen
+function claudinebananal_login_link( $url ) {
+	return home_url();
+}
+add_filter('login_headerurl', 'claudinebananal_login_link');
+
+
+//Change Logo Title on Log-In Screen
+function claudinebananal_logo_title() {
+	return 'View Portfolio Site';
+}
+add_filter ('login_headertitle', 'claudinebananal_logo_title');
