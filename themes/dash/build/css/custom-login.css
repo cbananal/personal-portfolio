@@ -1,0 +1,10 @@
+/*----------------------------
+  Dash: Admin Log-In Page
+-----------------------------*/
+
+.login h1 a{
+  width: auto;
+  height: 100px;
+  background-image: url('../../assets/images/claudine-logo.png');
+  background-size: contain;
+}

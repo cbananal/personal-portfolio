@@ -27,3 +27,14 @@ function dash_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'dash_body_classes' );
+
+
+/*----------------------------
+  Dash: Custom Functions
+-----------------------------*/
+
+//Add Custom Logo to Login Screen
+function claudinebananal_custom_login() {
+	echo '<link rel="stylesheet" type="text/css" href=" ' . get_stylesheet_directory_uri() . '/build/css/custom-login.css"/>';
+}
+add_action ('login_head', 'claudinebananal_custom_login');
