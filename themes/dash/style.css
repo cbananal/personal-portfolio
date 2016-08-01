@@ -962,10 +962,8 @@ html {
   padding: 0 10px; }
 
 body {
-  font-size: 1rem;
-  font-family: "Lora Regular", serif;
-  color: #58585a;
-  line-height: 1.8rem; }
+  font: 1rem/1.8rem "Lora Regular", serif;
+  color: #58585a; }
 
 a,
 a:visited {

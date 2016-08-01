@@ -15,10 +15,8 @@ html {
 }
 
 body {
-  font-size: 1rem;
-  font-family: $font_main;
+  font: 1rem/1.8rem $font-main;
   color: $color_default-text;
-  line-height: 1.8rem;
 }
 
 a,
